@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bigyapani - Branding Through Bottles</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: #D6F2FDs;
+      color: #333;
+    }
+
+    header {
+      background: #ffffff;
+      color: #012467;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo-container img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    nav {
+      background: #5FB1FD;
+      padding: 0.5rem 2rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #0A2F70;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #0a3d62;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    a.button {
+      background: #5FB1FD;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Bigyapani.png" alt="Bigyapani Logo">
+      <h1>BIGYAPANI</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Branding Through Every Sip</h1>
+    <p>We help brands reach their audience directly through custom-branded water bottles at events, workplaces, and public spaces.</p>
+    <a href="#contact" class="button">Partner With Us</a>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Bigyapani is a Kathmandu-based branding startup dedicated to smart, cost-effective marketing
+strategies. With a passion for visual storytelling and creative campaigns, we specialize in connecting
+brands with consumers in meaningful ways. This bottle branding initiative is part of our mission to
+innovate local marketing platforms.</p>
+      <!--
+    <img src="about.jpg" alt="About Bigyapani" style="width:100%; border-radius:10px; margin-top:1rem;">
+      -->
+  </section>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+       <!-- <img src="service1.jpg" alt="Branded Bottled Water"> -->
+        <h3>Branded Bottled Water</h3>
+        <p>Custom labels on mineral water bottles tailored to match your brand’s identity and campaign.</p>
+      </div>
+      <div class="card">
+       <!-- <img src="service2.jpg" alt="Event Partnership"> -->
+        <h3>Event Partnerships</h3>
+        <p>Reach hundreds of people in one event by distributing your brand through our water at marathons, conferences and more.</p>
+      </div>
+      <div class="card">
+        <!-- <img src="service3.jpg" alt="Label Design"> -->
+        <h3>Design Assistance</h3>
+        <p>Don’t have a label design? We’ll help you make a professional one that suits your brand perfectly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="portfolio">
+    <h2>Our Portfolio</h2>
+    <p>We’ve proudly partnered with student events, youth marathons, and campus initiatives. </p>
+     <!-- <p> Below are a few glimpses of our recent work.</p> -->
+
+      <!--
+    <div class="grid">
+      <div class="card"><img src="event1.jpg" alt="Event 1"></div>
+      <div class="card"><img src="event2.jpg" alt="Event 2"></div>
+      <div class="card"><img src="event3.jpg" alt="Event 3"></div>
+    </div>
+      -->
+
+      
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Want your brand here?<br> Contact Bigyapani today!</p><br>
+    
+    <ul>
+      <li>Email: bigyapaniofficial@gmail.com</li>
+      <li>Phone: 9813482300, 9851403527</li>
+      <li>Address: Kathmandu, Nepal</li>
+      <li>Instagram: <a href="https://instagram.com/bigyapani_official/" target="_blank">@bigyapani_official</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bigyapani. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
